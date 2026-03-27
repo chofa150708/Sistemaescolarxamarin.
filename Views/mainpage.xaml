@@ -1,0 +1,30 @@
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+x:Class="SistemaEscolar.MainPage">
+<StackLayout Padding="30">
+<Label
+Text="Sistema Escolar"
+FontSize="28"
+HorizontalOptions="Center"/>
+<Button
+Text="Gestión de Alumnos"
+Clicked="IrAlumnos"/>
+
+En esta parte se declara al alumno
+
+En esta parte se declara la materia
+En esta parte se declara al alumno
+
+En esta parte se declara la calificación
+
+Aquí empieza el código para la
+página principal
+
+<Button
+Text="Registrar Calificaciones"
+Clicked="IrCalificaciones"/>
+<Button
+Text="Ver Promedios"
+Clicked="IrPromedios"/>
+</StackLayout>
+</ContentPage>
