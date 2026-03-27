@@ -1,0 +1,21 @@
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+x:Class="SistemaEscolar.CalificacionesPage">
+<StackLayout Padding="20">
+<Label
+Text="Registro de Calificaciones"
+FontSize="24"/>
+<Entry
+x:Name="alumno"
+Placeholder="Alumno"/>
+<Entry
+x:Name="materia"
+Placeholder="Materia"/>
+<Entry
+x:Name="nota"
+Placeholder="Calificación"
+Keyboard="Numeric"/>
+<Button
+Text="Guardar"
+Clicked="GuardarCalificacion"/>
+</StackLayout>
+</ContentPage>
