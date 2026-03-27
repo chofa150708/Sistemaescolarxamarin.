@@ -1,0 +1,24 @@
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+x:Class="SistemaEscolar.AlumnosPage">
+<StackLayout Padding="20">
+<Label Text="Registro de Alumnos"
+FontSize="24"/>
+<Entry
+x:Name="nombreAlumno"
+Placeholder="Nombre del alumno"/>
+<Button
+Text="Agregar Alumno"
+Clicked="AgregarAlumno"/>
+<ListView x:Name="listaAlumnos">
+<ListView.ItemTemplate>
+<DataTemplate>
+<TextCell Text="{Binding Nombre}"/>
+</DataTemplate>
+</ListView.ItemTemplate>
+</ListView>
+
+Aquí empieza el código para la
+página de alumnos
+
+</StackLayout>
+</ContentPage>
